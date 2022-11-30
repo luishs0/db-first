@@ -1,0 +1,15 @@
+Macchine usate
+
+id - INT - PRIMARYKEY, AUTOINCREMENT
+anno di fabricazione - YEAR - NOTNULL
+marca - VARCHAR(30) - NOTNULL
+modello - VARCHAR(50) - NOTNULL
+numero di sedili - TINYINT - NULL
+numero di porte - TINYINT - NULL
+manuale - TINYINT(Booleano) - NOTNULL
+automatico - TINYINT(Booleano) - NOTNULL
+kilometri fatti - MEDIUMINT - NOTNULL
+numero di targa - VARCHAR(8) - UNIQUE
+cavalli - SMALLINT - NULL
+colore - VARCHAR(30) - NULL
+peso(kg) - SMALLINT - NULL
